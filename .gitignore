@@ -1,0 +1,41 @@
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDEs
+.idea/
+.vscode/
+.idx/
+
+# Python (Backend)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+instance/
+.pytest_cache/
+backend/venv/
+backend/.env
+
+# Node/JavaScript (Frontend)
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm/
+frontend/node_modules/
+frontend/dist/
+
+# Database
+*.sqlite3
+*.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+flask.log
